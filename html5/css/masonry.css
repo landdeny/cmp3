@@ -1,0 +1,222 @@
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+body {
+    background-color: #f2f2f2;
+    height:100%;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+ -moz-column-width: 18em;
+ -webkit-column-width: 18em;
+ -moz-column-gap: 1em;
+ -webkit-column-gap:1em; 
+  
+}
+.title {
+    text-align: center;
+    margin: 0 auto;
+    padding: 60px 0 0 0;
+}
+.item {
+ display: inline-block;
+ padding:  .25rem;
+ width:  100%; 
+}
+.item img {
+    height: auto;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+hr {
+    margin: 15px 0;
+}
+.readmore {
+    padding: 10px 0 0 10px;
+}
+.readmore a {
+    color: #adb0b5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.readmore a:hover {
+    color: #fc125f;
+}
+.well {
+    position:relative;
+    display: block;
+    background-color: #fff;
+    padding: 0 0 13px 0;
+}
+.well_content {
+    padding: 20px;
+}
+.well_title {
+    color: #656d78;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+ 
+}
+.well_user {
+    color: #adb0b5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    float: right;
+   margin-bottom: 10px;
+}
+.iconspacer {
+   padding-right: 5px;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:#FFF;
+}
+header {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height:200px;
+    background-color: #2b2e36;
+}
+nav {
+    float: left;
+    margin-left: 10%;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding: 10px 10px 30px 10px ;
+    opacity: 0.8;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    
+}
+nav li a:hover {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #fc125f;
+    height: 30px;
+    padding: 10px 20px 30px 20px ;
+        opacity: 1;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+}
+nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+.clearfix {
+    clear: both;
+}
+.lets_content {
+    margin-top:40px;
+}
+
+.floatleft {
+    float: left;
+}
+.lets_content {
+    float:left;
+    width: 80%;
+}
+/*SIDEBAR*/
+.sidebar_container {
+    height:100%;
+    width:200px;
+    background-color: #e1e1e1;
+    float: right;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    bottom:0;
+    -webkit-box-shadow:inset 1px 1px 3px 1px rgba(0, 0, 0, .05);
+    box-shadow:inset 1px 1px 3px 1px rgba(0, 0, 0, .05);
+}
+.sidebar_top {
+    background-color: #202329;
+    padding:10px;
+    color: #fff;
+    height:200px;
+}
+.sidebar_content {
+    padding: 0;
+}
+.sidebar_content li {
+    text-decoration: none;
+    list-style-type: none;
+    color: lightgrey;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400; 
+    padding-top: px;
+    margin-left: -40px;
+    text-align: left;
+
+}
+.sidebar_content hr{
+    padding:0;
+}
+.sidebar_content a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #656d78;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+.sidebar_content ul {
+    list-style-type: none;
+    width: 200px;
+}
+/* Change the link color on hover */
+.sidebar_content li a:hover {
+    background-color: #efefef;
+    color: white;
+}
+
+/*Footer*/
+footer {
+  background-color: #2b2e36;
+    height:160px;
+    width: 100%;
+    display: block;
+    padding:30px;
+    margin: 0;
+    color: #fff;
+    position: relative;
+    bottom:0;
+}

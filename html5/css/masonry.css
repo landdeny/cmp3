@@ -151,61 +151,24 @@ nav li a:visited {
     width: 80%;
 }
 /*SIDEBAR*/
-.sidebar_container {
-    height:100%;
-    width:200px;
-    background-color: #e1e1e1;
-    float: right;
-    position: absolute;
-    right: 0px;
-    top:0px;
-    bottom:0;
-    -webkit-box-shadow:inset 1px 1px 3px 1px rgba(0, 0, 0, .05);
-    box-shadow:inset 1px 1px 3px 1px rgba(0, 0, 0, .05);
+.sidebar_one {
+    padding-top:20px;
+    padding-right:40px;
+    position: fixed;
+    width:300px;
+    right:30px;
+    top:244px;
 }
-.sidebar_top {
-    background-color: #202329;
-    padding:10px;
-    color: #fff;
-    height:200px;
-}
-.sidebar_content {
-    padding: 0;
-}
-.sidebar_content li {
-    text-decoration: none;
+.sidebar_one ul {
     list-style-type: none;
-    color: lightgrey;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: 400; 
-    padding-top: px;
-    margin-left: -40px;
-    text-align: left;
-
 }
-.sidebar_content hr{
-    padding:0;
-}
-.sidebar_content a{
-    display: block;
-    padding: 8px 16px;
-    text-decoration: none;
-    color: #656d78;
+.sidebar_one li a{
+        color: #656d78;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     letter-spacing: 1.5px;
     font-weight: 600;
-}
-.sidebar_content ul {
-    list-style-type: none;
-    width: 200px;
-}
-/* Change the link color on hover */
-.sidebar_content li a:hover {
-    background-color: #efefef;
-    color: white;
+
 }
 
 /*Footer*/
@@ -219,4 +182,43 @@ footer {
     color: #fff;
     position: relative;
     bottom:0;
+}
+#success_message{ display: none;}
+
+/*Contact content*/
+.contact_content {
+    padding: 20px 0 0 0;
+}
+
+.contact_content h1 {
+            color: #656d78;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+form {
+    font-family: 'Roboto', sans-serif;
+}
+/*LETS*/
+.lets {
+    padding: 20px;
+    padding-top:20px;
+    margin: 20px 0 0 0;
+
+}
+.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+.lets h1 {
+                color: #656d78;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
 }

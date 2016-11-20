@@ -1,0 +1,36 @@
+name = LETS
+description = LETS Website CMP3
+core = 7.x
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[content]        = 'Content'
+regions[sidebar_right] = 'Sidebar Right'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/masonry.css
+stylesheets[all][] = css/3-col-portfolio.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = js/vendor/bootstrap.js
+stylesheets[all][] = js.vendor/bootstrap.min.js
+stylesheets[all][] = js/jquery.js

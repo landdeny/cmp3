@@ -1,0 +1,14 @@
+name = LETS Systeem
+description = Opdracht voor CMP3
+core = 7.x
+ 
+stylesheets[all][] = css/3-col/portfolio.css
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/masonry.css
+ 
+
+regions[main_menu] = Main Menu
+regions[content] = Content
+regions[sidebar_right] = Sidebar Right
+regions[footer] = Footer
